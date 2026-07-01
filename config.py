@@ -1,5 +1,5 @@
 # FrameSelect weight configuration
-YOLO_ENGINE_PATH = r"/mnt/8T/zwl/HUAWEI/yolov8n.engine"
+YOLO_ENGINE_PATH = r"./yolov8n.engine"
 
 
 # YOLO configuration
