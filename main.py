@@ -9,7 +9,7 @@ def main():
     )
 
     # ----- 批量处理 -----
-    root_dir = r"/mnt/8T/zwl/HUAWEI/test_data/"
+    root_dir = None
     # 示例：处理编号为15的视频
     paths = [os.path.join(root_dir, name) for name in os.listdir(root_dir)
              if name[:2].isdigit() and int(name[:2]) == 00]
