@@ -1,6 +1,6 @@
 # FrameSelect weight configuration
-YOLO_DET_ENGINE_PATH = r"./yolov8n-seg.engine"
-YOLO_POSE_ENGINE_PATH = r'/yolov8n-pose.engine'
+YOLO_ENGINE_PATH = r"./yolov8n.engine"
+
 
 # YOLO detection configuration
 YOLO_DET_TARGET_CLS = [0, 2, 5, 7]
